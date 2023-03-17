@@ -14,6 +14,9 @@ import Technology from './components/screens/Technology';
 import Submission from './components/screens/Submission';
 import Rewards from './components/screens/Rewards';
 import Notes from './components/screens/Notes';
+import Pending from './components/screens/Pending';
+import Completed from './components/screens/Completed';
+import Submitted from './components/screens/Submitted';
 
 function App() {
   return <Router>
@@ -24,7 +27,10 @@ function App() {
         <Routes>
           <Route path="/" element= {<Home/>}/>
           <Route path="scheduler" element= {<Scheduler/>}>
-
+          <Route index element={<Pending/>}/>
+            <Route path="pending" element={<Pending/>}/>
+            <Route path="completed" element={<Completed/>}/>
+            <Route path="submitted" element={<Submitted/>}/>
           </Route>
           <Route path="technology" element= {<Technology/>} />
           <Route path="submission" element= {<Submission/>} />
