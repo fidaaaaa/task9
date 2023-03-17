@@ -8,7 +8,7 @@ function Notes() {
         <Helmet>
             <title>Notes</title>
         </Helmet>
-        <H1>Coming Soon</H1>
+        <H1>Coming Soon...</H1>
     </div>
   )
 }

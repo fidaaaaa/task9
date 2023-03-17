@@ -8,7 +8,7 @@ function Submission () {
       <Helmet>
         <title>Submission</title>
       </Helmet>
-      <H1>Coming Soon</H1>
+      <H1>Coming Soon...</H1>
     </div>
   )
 }
