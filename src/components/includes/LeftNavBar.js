@@ -94,6 +94,7 @@ const SectionMiddle = styled.section``;
 const Ul = styled.ul`
     width: 65%;
     margin: 0 auto;
+    
 `;
 const Li = styled.li`
     display: flex;
@@ -120,6 +121,7 @@ const LinkNav = styled(NavLink)`
     color: #9E9696;
     font-weight: 500;
     font-size: 15px;
+    text-decoration: none;
 `;
 const SectionBottom = styled.section`
     width: 70%;
