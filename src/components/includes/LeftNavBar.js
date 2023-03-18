@@ -73,10 +73,10 @@ function LeftNavBar() {
 }
 
 const SectionMain = styled.section`
-    width: 19%;
+    width: 16%;
     margin: 4px;
     box-shadow: 0px 3px 10px 3px #d6cdcdc9;
-    padding-bottom: 90px;
+    padding-bottom: 8%;
 `;
 const SectionWrapper = styled.section``;
 const SectionTop = styled.section`
@@ -100,6 +100,7 @@ const Li = styled.li`
     align-items: center;
     margin-bottom: 48px;
     color: #9E9696;
+    
 `;
 const LiLast = styled.li`
     margin-bottom: 0;
@@ -121,8 +122,8 @@ const LinkNav = styled(NavLink)`
     font-size: 15px;
 `;
 const SectionBottom = styled.section`
-    width: 75%;
-    margin: 85px 2px 30px 57px;
+    width: 70%;
+    margin: 150px 2px 30px 45px;
     box-shadow: 0px 3px 3px 2px #d6cdcdc9;
     text-align: center;
     border-radius: 4px;
@@ -144,6 +145,7 @@ const BuyPremium = styled.button`
     font-weight: 600;
     margin: 24px auto;
     font-size: 13px;
+    border-style: none;
 `;
 const LearnMore = styled(Link)`
     color: #5C75FB;

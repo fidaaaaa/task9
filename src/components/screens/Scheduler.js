@@ -166,7 +166,9 @@ function Scheduler() {
   )
 }
 
-const SectionSpotlight = styled.section``;
+const SectionSpotlight = styled.section`
+  height: 100vh;
+`;
 const SectionWrapper = styled.section`
   width: 91%;
   margin: 0 auto;
@@ -209,6 +211,7 @@ const DivImgContainer = styled.div`
 `;
 const Image = styled.img`
   width: 100%;
+  height: 199.09px;
   display: block;
 `;
 const Image2 = styled.img`
@@ -291,13 +294,14 @@ const LinkNav = styled(NavLink)`
 
 const SectionRight = styled.section`
   width: 48%;
-`;
+  /* margin-bottom: 5%; */
+ `;
 const Live = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 27%;
-  margin-bottom: 18px;
+  margin-bottom: -20px;
 `;
 const LiveSession = styled.h3`
   font-weight: 700;
@@ -305,7 +309,7 @@ const LiveSession = styled.h3`
 `;
 const GreenCircle = styled.div`
   Width: 16px;
-  height: 16px;
+  height: 10px;
   border-radius: 50%;
   background: #59F195;
 `;
@@ -313,21 +317,22 @@ const SectionContent = styled.section`
   box-shadow: 0 3px 60px 3px #d6cdcdc9;
 `;
 const SectionPadding = styled.section`
-padding: 28px;
+padding: 17px;
 `
 ;
 const Lecture = styled.h4`
   font-weight: 700;
   font-size: 17px;
-  padding: 18px 0 18px 18px;
+  padding: 9px 0 0px 18px;
 `;
 const Hr = styled.hr`
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #9E9696;
 `;
 const CenterFlex = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 93%;
+  width: 90%;
+  margin: 0 auto;
 `;
 const Left = styled.div`
   margin-bottom: 28px;
@@ -354,6 +359,7 @@ const ButtonFlex = styled.div`
 const DivPlay = styled.div`
   background: #1C40FA;
   width: 26%;
+  padding: 4px;
   border-radius: 4px 0 0 4px;
 `;
 const Playbutton = styled.img`
@@ -367,16 +373,17 @@ const Join = styled.button`
   border-radius: 0 4px  4px 0;
   color: #fff;
   font-size: 16px;
+  border-style: none;
 `;
 const Level = styled.section`
-  padding-top: 28px;
-  margin-bottom: -22px;
+    margin-bottom: -22px;
+    padding:21px 30px ;
 `;
 const Line = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 22px;
+  /* margin-bottom: 22px; */
 `;
 const CheckGreenContainer = styled.div``;
 const CheckGreenImage = styled.img`
@@ -402,6 +409,7 @@ const Buttonbggrey = styled.button`
   padding: 11px 20px;
   background: #c9c9c9;
   border-radius: 7px;
+  border-style: none;
 `;
 const CheckGreyContainer = styled.div``;
 const CheckGreyImage = styled.img``;
@@ -409,6 +417,7 @@ const Buttonbgdarkgrey = styled.button`
 padding: 11px 30px;
 background: #9E9696;
 border-radius: 7px;
+border-style: none;
 `;
 
 export default Scheduler
