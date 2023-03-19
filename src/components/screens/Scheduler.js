@@ -8,6 +8,17 @@ import CheckGreen from '../Assets/Images/tickGreen.svg';
 import CheckGrey from '../Assets/Images/tickGray.svg';
 
 function Scheduler() {
+  
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 1
+    };
+
+
+
   return (
     <div>
     <Helmet>
@@ -26,7 +37,9 @@ function Scheduler() {
             </Arrowright>
           </Arrows>
         </Arrowflex>
-        <DivTop>
+
+        <Slider {...settings}>
+
           <DivContent>
             <DivImgContainer>
               <Image src={require("../Assets/Images/Rectangle 4.jpg")}/>
@@ -84,7 +97,47 @@ function Scheduler() {
               </DivRight>
             </SmallDiv>
           </DivContent>
-        </DivTop>
+
+          <DivContent>
+            <DivImgContainer>
+              <Image2 src={require("../Assets/Images/Rectangle 20693.jpg")}/>
+            </DivImgContainer>
+            <H3>Mechanics in Physics</H3>
+            <P>This part of chemistry deals with atomic
+              structure and molecular structure.
+            </P>
+            <SmallDiv>
+              <Divround>
+                <ImageRound src={require("../Assets/Images/woman2.png")}/>
+              </Divround>
+              <DivRight>
+                <SpanName>By Prof Kenni</SpanName>
+                <TimeDate>8:30, 13th March 2020</TimeDate>
+              </DivRight>
+            </SmallDiv>
+          </DivContent>
+
+          <DivContent>
+            <DivImgContainer>
+              <Image src={require("../Assets/Images/Rectangle 4.jpg")}/>
+            </DivImgContainer>
+            <H3>Basic Chemistry lll</H3>
+            <P>This part of chemistry deals with atomic
+              structure and molecular structure.
+            </P>
+            <SmallDiv>
+              <Divround>
+                <ImageRound src={require("../Assets/Images/woman1.png")}/>
+              </Divround>
+              <DivRight>
+                <SpanName>By Prof Kenni</SpanName>
+                <TimeDate>8:30, 13th March 2020</TimeDate>
+              </DivRight>
+            </SmallDiv>
+          </DivContent>
+
+        </Slider>
+
         <DivBottom>
           <SectionLeft>
             <H>Assignment Manager</H>
