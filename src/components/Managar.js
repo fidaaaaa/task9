@@ -15,6 +15,16 @@ function Managar() {
         setItemId(id)
     }
 
+    const [state , setState] = useState(false);
+    const toggle=() =>{
+        setState(!state);
+    }
+
+    const [name , setName] = useState(false);
+    const changeName=() =>{
+        setName(!name);
+    }
+
   return (
     <Manager>
         <Top>
@@ -39,7 +49,9 @@ function Managar() {
                         <Final>Final assessment I Due 14th March 2020</Final>
                     </Left>
                     <Right>
-                        <Yellow>Resume</Yellow>
+                    <Yellow onClick={toggle} className={'tooggle--button ' + (state ? 'toggle--resume ':'')}>
+                    {state ? 'Start':'Resume'}
+                    </Yellow>
                     </Right>
                 </Main>
                 <Main>
@@ -48,7 +60,8 @@ function Managar() {
                         <Final>Class test I Due tomorrow</Final> 
                     </Left>
                     <Right>
-                        <Violet>Start</Violet>
+                        <Violet onClick={changeName} className={'tooggle--button ' + (name ? 'toggle--close ':'')}>
+                    {name ? 'Pause':'Start'}</Violet>
                     </Right>
                 </Main>
             </Card>    
