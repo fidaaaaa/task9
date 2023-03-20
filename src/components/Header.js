@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Woman from "../assets/images/woman (4) 1.png";
+import Woman from "../Assets/Images/woman1.png";
 import { AiOutlineBell, AiOutlineSetting } from 'react-icons/ai';
 import Navbar from './Navbar';
 

@@ -33,7 +33,7 @@ const settings = {
     prevArrow: <SamplePrevArrow />,
     dots: true,
     arrows: true,
-    infinite: false,
+    infinite: true,
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 3,
@@ -70,8 +70,8 @@ const datas = [
         id:1,
         title: 'Basic Chemistry III',
         description: 'This part of chemistry deals with atomic structure and molecular structure.',
-        image: require('../assets/images/Rectangle 4.jpg'),
-        icon: require('../assets/images/woman (4) 1.png'),
+        image: require('../Assets/Images/Rectangle 4.jpg'),
+        icon: require('../Assets/Images/woman1.png'),
         name: 'By Prof Kennai',
         period: '8.30,13th March 2020'
 
@@ -80,8 +80,8 @@ const datas = [
         id:2,
         title: 'Mechanics in Physics',
         description: 'This part of chemistry deals with atomic structure and molecular structure.',
-        image: require('../assets/images/physics.png'),
-        icon: require('../assets/images/woman (3).png'),
+        image: require('../Assets/Images/physics.png'),
+        icon: require('../Assets/Images/woman2.png'),
         name: 'By Prof Kennai',
         period: '8.30,13th March 2020'
 
@@ -90,8 +90,8 @@ const datas = [
         id:3,
         title: 'Focusv on Words',
         description: 'This part of chemistry deals with atomic structure and molecular structure.',
-        image: require('../assets/images/Rectangle 20694.jpg'),
-        icon: require('../assets/images/man.png'),
+        image: require('../Assets/Images/Rectangle 20694.jpg'),
+        icon: require('../Assets/Images/man.png'),
         name: 'By Prof Steven Joe',
         period: '3 days ago'
 
@@ -100,8 +100,8 @@ const datas = [
         id:1,
         title: 'Basic Chemistry III',
         description: 'This part of chemistry deals with atomic structure and molecular structure.',
-        image: require('../assets/images/Rectangle 4.jpg'),
-        icon: require('../assets/images/woman (4) 1.png'),
+        image: require('../Assets/Images/Rectangle 4.jpg'),
+        icon: require('../Assets/Images/woman1.png'),
         name: 'By Prof Kennai',
         period: '8.30,13th March 2020'
 
@@ -110,8 +110,8 @@ const datas = [
         id:3,
         title: 'Focusv on Words',
         description: 'This part of chemistry deals with atomic structure and molecular structure.',
-        image: require('../assets/images/Rectangle 20694.jpg'),
-        icon: require('../assets/images/man.png'),
+        image: require('../Assets/Images/Rectangle 20694.jpg'),
+        icon: require('../Assets/Images/man.png'),
         name: 'By Prof Steven Joe',
         period: '3 days ago'
     },
@@ -119,8 +119,8 @@ const datas = [
         id:1,
         title: 'Basic Chemistry III',
         description: 'This part of chemistry deals with atomic structure and molecular structure.',
-        image: require('../assets/images/Rectangle 4.jpg'),
-        icon: require('../assets/images/woman (4) 1.png'),
+        image: require('../Assets/Images/Rectangle 4.jpg'),
+        icon: require('../Assets/Images/woman1.png'),
         name: 'By Prof Kennai',
         period: '8.30,13th March 2020'
     },
@@ -128,8 +128,8 @@ const datas = [
         id:1,
         title: 'Basic Chemistry III',
         description: 'This part of chemistry deals with atomic structure and molecular structure.',
-        image: require('../assets/images/Rectangle 4.jpg'),
-        icon: require('../assets/images/woman (4) 1.png'),
+        image: require('../Assets/Images/Rectangle 4.jpg'),
+        icon: require('../Assets/Images/woman1.png'),
         name: 'By Prof Kennai',
         period: '8.30,13th March 2020'
     },
@@ -137,8 +137,8 @@ const datas = [
         id:2,
         title: 'Mechanics in Physics',
         description: 'This part of chemistry deals with atomic structure and molecular structure.',
-        image: require('../assets/images/physics.png'),
-        icon: require('../assets/images/woman (3).png'),
+        image: require('../Assets/Images/physics.png'),
+        icon: require('../Assets/Images/woman2.png'),
         name: 'By Prof Kennai',
         period: '8.30,13th March 2020'
     },
@@ -146,8 +146,8 @@ const datas = [
         id:1,
         title: 'Basic Chemistry III',
         description: 'This part of chemistry deals with atomic structure and molecular structure.',
-        image: require('../assets/images/Rectangle 4.jpg'),
-        icon: require('../assets/images/woman (4) 1.png'),
+        image: require('../Assets/Images/Rectangle 4.jpg'),
+        icon: require('../Assets/Images/woman1.png'),
         name: 'By Prof Kennai',
         period: '8.30,13th March 2020'
     },

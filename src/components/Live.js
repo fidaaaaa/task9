@@ -20,15 +20,15 @@ function Live() {
                             <Physics><Span>Physics</Span> Pro Lee Dan Qi</Physics>
                         </Paragraph>
                         <Bluebox>
-                            <Right><Arrow><Image src={require("../assets/images/Component 116.svg").default} /></Arrow></Right>
+                            <Right><Arrow><Image src={require("../Assets/Images/Component 116.svg").default} /></Arrow></Right>
                             <Left><Text>join</Text></Left>
                         </Bluebox>      
                     </Momentum>
                     <Bottom>
                         <Mass>
-                            <Item><Round><Tick src={require("../assets/images/check circle_1.svg").default} /></Round>Force and unit</Item>
-                            <Item><Round><Tick src={require("../assets/images/check circle_.svg").default} /></Round>Mass and acceleration</Item>
-                            <Item><Round><Tick src={require("../assets/images/check circle_.svg").default} /></Round>Gain of Momentum</Item>
+                            <Item><Round><Tick src={require("../Assets/Images/check circle_1.svg").default} /></Round>Force and unit</Item>
+                            <Item><Round><Tick src={require("../Assets/Images/check circle_.svg").default} /></Round>Mass and acceleration</Item>
+                            <Item><Round><Tick src={require("../Assets/Images/check circle_.svg").default} /></Round>Gain of Momentum</Item>
                         </Mass>
                         <Mass>
                             <Item>03:40<Time>min</Time></Item>
