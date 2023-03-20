@@ -3,6 +3,13 @@ import '../../App.css';
 import styled from 'styled-components';
 
 function Pending() {
+
+    const [state , setState] = useState(false);
+    const toggle=() =>{
+        setState(!state);
+    }
+    
+
   return (
     <>
     <DivMain>
@@ -17,7 +24,9 @@ function Pending() {
                 <Due>Final assessment | Due 14th March 2020</Due>
             </DivLeft>
             <DivRight>
-                <Resume>Resume</Resume>
+                <Resume onClick={toggle} className={'tooggle--button ' + (state ? 'toggle--close ':'')}>
+                    {state ? 'Start':'Resume'}
+                    </Resume>
             </DivRight>
         </DivFlex>
         <DivFlex>
@@ -28,7 +37,9 @@ function Pending() {
                 <Due>Class test | Due Tomorrow</Due>
             </DivLeft>
             <DivRight>
-                <Start>Start</Start>
+                <Start onClick={toggle} className={'tooggle--pause ' + (state ? 'toggle--start ':'')}>
+                    {state ? 'Pause':'Start'}
+                    </Start>
             </DivRight>
         </DivFlex>
     </DivMain>

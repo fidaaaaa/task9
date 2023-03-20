@@ -32,7 +32,7 @@ function Header() {
   )
 }
 const HeaderSection = styled.header`
-    height: 70px;
+    height: 60px;
    display: flex;
    align-items: center;
 `;

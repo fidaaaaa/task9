@@ -1,18 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
-import Slides from './Slides';
-import Manager from './Manager';
+import Header from './Header';
+import Board from './Board';
+import Managar from './Managar';
 import Live from './Live';
 
 
-function Scheduler() {
+function MainContent() {
   return (
     <>
     <Container>
+        <Header />
         <Lessons>
-            <SectionOne><Slides /></SectionOne>
+            <SectionOne><Board /></SectionOne>
             <Sectiontwo>
-               <Manager />
+               <Managar />
             </Sectiontwo>
             <Sectionthree><Live /></Sectionthree>
         </Lessons>
@@ -62,4 +64,8 @@ const Sectiontwo = styled.div`
         grid-column-end: 3;
     }
 `;
-export default Scheduler
+export default MainContent
+
+
+
+

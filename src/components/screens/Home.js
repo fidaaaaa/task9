@@ -34,7 +34,7 @@ function Home() {
 
             <DivContent>
               <DivImgContainer>
-                <Image2 src={require("../Assets/Images/Rectangle 20693.jpg")}/>
+                <Image2 src={require("../Assets/Images/physics.jpg")}/>
               </DivImgContainer>
               <H3>Mechanics in Physics</H3>
               <P>This part of chemistry deals with atomic
