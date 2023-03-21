@@ -8,7 +8,7 @@ function Notes() {
     <>
       <Container>
         <Sidebar />
-        <Header>Technology</Header >
+        <h1>Coming soon...</h1 >
       </Container>
     </>
   )

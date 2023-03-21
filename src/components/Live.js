@@ -1,7 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
+import greenTick from "../Assets/Images/check circle_1.svg";
+import grayTick from "../Assets/Images/check circle_.svg";
+import {IoCheckmarkCircleSharp} from "react-icons/io5";
+import {IoCheckmarkCircleOutline} from "react-icons/io5";
+
 
 function Live() {
+    const [checkItem1, SetCheckItem1]=useState(false);
+    const handleClick1=()=> SetCheckItem1(!checkItem1);
+
+    const [checkItem2, SetCheckItem2]=useState(false);
+    const handleClick2=()=> SetCheckItem2(!checkItem2);
+
+    const [checkItem3, SetCheckItem3]=useState(false);
+    const handleClick3=()=> SetCheckItem3(!checkItem3);
+
+ 
+
+
+
+    
+
   return (
     <Session>
         <Maincontent>
@@ -26,9 +46,15 @@ function Live() {
                     </Momentum>
                     <Bottom>
                         <Mass>
-                            <Item><Round><Tick src={require("../Assets/Images/check circle_1.svg").default} /></Round>Force and unit</Item>
-                            <Item><Round><Tick src={require("../Assets/Images/check circle_.svg").default} /></Round>Mass and acceleration</Item>
-                            <Item><Round><Tick src={require("../Assets/Images/check circle_.svg").default} /></Round>Gain of Momentum</Item>
+                            <Item onClick={handleClick1}><Round  >
+                            {!checkItem1 ? <IoCheckmarkCircleSharp size={20}/> : <IoCheckmarkCircleOutline size={20}/> }
+                            </Round>Force and unit</Item>
+                            <Item onClick={handleClick2}><Round  >
+                            {!checkItem2 ? <IoCheckmarkCircleOutline  size={20}/> : <IoCheckmarkCircleSharp size={20}/> }
+                            </Round>Mass and acceleration</Item>
+                            <Item onClick={handleClick3} ><Round >
+                            {!checkItem3 ? <IoCheckmarkCircleOutline size={20}/> : <IoCheckmarkCircleSharp size={20}/> }
+                            </Round>Gain of Momentum</Item>
                         </Mass>
                         <Mass>
                             <Item>03:40<Time>min</Time></Item>
@@ -179,6 +205,8 @@ const Mass = styled.div`
 const Item = styled.h5`
     font-size: 12px;
     margin-bottom: 25px;
+    display: flex;
+    align-items: center;
     @media all and (max-width: 480px){
         font-size: 11px;
     }
@@ -224,4 +252,4 @@ const Hard = styled.button`
     }
 `;
 
-export default Live
+ export default Live;

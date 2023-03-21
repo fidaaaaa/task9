@@ -7,7 +7,7 @@ function Submission() {
   <>
     <Container>
       <Sidebar />
-      <Header>Submission</Header >
+      <h1>Coming soon...</h1 >
     </Container>
   </>
     )

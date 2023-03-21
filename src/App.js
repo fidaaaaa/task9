@@ -9,6 +9,7 @@ import Sheduler from "./components/screens/sheduler/Sheduler";
 import Submission from "./components/screens/submission/Submission";
 import Technology from "./components/screens/technology/Technology";
 import { Helmet } from 'react-helmet';
+import Home from "./components/Home";
 
 
 
@@ -23,16 +24,16 @@ function App() {
             <Router>
                 <Routes>
                     <Route
-                        path="/"
+                        path="/home"
                         element={
                             <MainContainer>
                                 <Sidebar />
-                                <MainContent />
+                              <Home/>
                             </MainContainer>
                         }
                     />
                     <Route
-                        path="/home"
+                        path="/sheduler"
                         element={
                             <MainContainer>
                                 <Sidebar />

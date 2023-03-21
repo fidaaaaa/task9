@@ -8,7 +8,7 @@ function Rewards() {
     <>
       <Container>
         <Sidebar />
-        <Header>Technology</Header >
+        <h1>Coming Soon..</h1 >
       </Container>
     </>
   )

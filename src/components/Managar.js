@@ -175,12 +175,12 @@ const Final = styled.p`
 `;
 const Yellow = styled.button`
     font-size: 12px;
-    color: yellow;
+    color: orange;
     text-align: center;
     cursor: pointer;
     padding: 12px 20px;
     border-radius: 5px;
-    border: 2px solid yellow;
+    border: 2px solid orange;
     width: 100px;
     @media all and (max-width: 480px){
         width: 70px;
@@ -189,12 +189,12 @@ const Yellow = styled.button`
 `;
 const Violet = styled.button`
     font-size: 12px;
-    color: #5CFB;
+    color: blue;
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
     padding: 12px 20px;
-    border: 2px solid #5CFB;
+    border: 2px solid blue;
     width: 100px;
     @media all and (max-width: 480px){
         width: 70px;

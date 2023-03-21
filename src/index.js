@@ -11,9 +11,9 @@ root.render(
   </React.StrictMode>
 );
 
-document.getElementsByID("pending").addEventListener("click", ()=>{
-  document.getElementsByID("pending").classList.add("Active");
-})
+// document.getElementsByID("pending").addEventListener("click", ()=>{
+//   document.getElementsByID("pending").classList.add("Active");
+// })
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
